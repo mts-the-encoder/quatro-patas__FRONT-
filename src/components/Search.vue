@@ -1,0 +1,61 @@
+<template>
+    <div class="search">
+        <input class="input--search" type="text" placeholder="Pesquisar por...">
+        <span class="icon">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13 8.96401C16.328 5.61801 24.65 11.472 13 19C1.34997 11.472 9.67197 5.62001 13 8.96401Z" fill="#7918D9"/>
+                <path d="M26 12.9999C26.0043 15.7656 25.1226 18.4599 23.484 20.6879C23.564 20.7479 23.64 20.8119 23.714 20.8839L31.414 28.5839C31.7893 28.9589 32.0002 29.4677 32.0004 29.9982C32.0006 30.5288 31.79 31.0376 31.415 31.4129C31.04 31.7882 30.5313 31.9991 30.0007 31.9993C29.4702 31.9995 28.9613 31.7889 28.586 31.4139L20.886 23.7139C20.8136 23.6424 20.7468 23.5655 20.686 23.4839H20.69C18.3336 25.2127 15.4635 26.0971 12.5428 25.9943C9.62204 25.8915 6.82115 24.8075 4.59215 22.9174C2.36315 21.0272 0.836085 18.4411 0.257406 15.5764C-0.321273 12.7117 0.0822001 9.73565 1.40271 7.12845C2.72321 4.52126 4.88371 2.43508 7.53551 1.2066C10.1873 -0.021874 13.1757 -0.32097 16.0184 0.357585C18.861 1.03614 21.3921 2.65276 23.2032 4.94653C25.0142 7.2403 25.9995 10.0774 26 12.9999ZM13 23.9999C14.4446 23.9999 15.875 23.7154 17.2095 23.1626C18.5441 22.6098 19.7567 21.7995 20.7782 20.7781C21.7996 19.7567 22.6099 18.544 23.1627 17.2094C23.7155 15.8749 24 14.4445 24 12.9999C24 11.5554 23.7155 10.125 23.1627 8.79041C22.6099 7.45583 21.7996 6.2432 20.7782 5.22175C19.7567 4.20031 18.5441 3.39006 17.2095 2.83725C15.875 2.28445 14.4446 1.99993 13 1.99993C10.0826 1.99993 7.28474 3.15885 5.22184 5.22175C3.15894 7.28465 2.00002 10.0825 2.00002 12.9999C2.00002 15.9173 3.15894 18.7152 5.22184 20.7781C7.28474 22.841 10.0826 23.9999 13 23.9999Z" fill="#7918D9"/>
+            </svg>
+        </span>
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'Search'
+}
+</script>
+
+<style lang="scss" scoped>
+.search {
+    width: 200px;
+    height: 50px;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    position: relative;
+    display: flex;
+    
+    .input--search {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        outline: 0;
+        display: block;
+        border: 2px solid $primary-color--one;
+        border-radius: 10px;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    ::-webkit-input-placeholder {
+        color: $color-heart--empty;
+        font-size: 20px;
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    svg {
+        position: absolute;
+        display: flex;
+        height: 100%;
+        font-size: 25px;
+        align-self: center;
+        justify-self: flex-end;
+        top: 0;
+        right: 10px;
+    }
+}
+</style>

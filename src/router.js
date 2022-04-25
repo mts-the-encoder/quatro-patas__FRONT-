@@ -19,6 +19,11 @@ const routes = [
         path: '/adopt',
         name: 'adopt',
         component: lazyLoad('Adopt')
+    },
+    {
+        path: '/favorites',
+        name: 'favorites',
+        component: lazyLoad('Favorites')
     }
 ];
 

@@ -16,8 +16,8 @@ export default {
 .heart--fav {
     height: 80px;
     width: 100px;
-    background-color: $color-heart--empty;
-    box-shadow: 8px 8px 20px rgba(121, 24, 217, 0.5);
+    background-color: $Bgcolor-heart--empty;
+    box-shadow: 10px 10px 20px rgba(121, 24, 217, 0.5);
     border-radius: 10px;
     margin-left: 100px;
     display: flex;
@@ -27,7 +27,7 @@ export default {
     .heart {
         width: 40px;
         height: 60px;
-        background-color: $color-heart--full;
+        background-color: $color-heart--empty;
         margin-right: 40px;
 
         /*HEART*/
@@ -91,7 +91,7 @@ export default {
         width: 100%;
         height: 100%;
         border-radius: 15px;
-        background-color: $color-heart--full;
+        background-color: $color-heart--empty;
         //transition: .5s ease;
         transform-origin: left bottom;
         animation: heart--after 3s ease infinite alternate;
