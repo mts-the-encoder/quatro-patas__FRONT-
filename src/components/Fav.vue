@@ -29,6 +29,7 @@ export default {
         height: 60px;
         background-color: $color-heart--empty;
         margin-right: 40px;
+        cursor: pointer;
 
         /*HEART*/
         border-radius: 15px;

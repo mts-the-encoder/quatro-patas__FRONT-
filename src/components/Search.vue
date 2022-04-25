@@ -47,7 +47,7 @@ export default {
         font-style: italic;
     }
 
-    svg {
+    .icon svg {
         position: absolute;
         display: flex;
         height: 100%;
@@ -56,6 +56,7 @@ export default {
         justify-self: flex-end;
         top: 0;
         right: 10px;
+        cursor: pointer;
     }
 }
 </style>

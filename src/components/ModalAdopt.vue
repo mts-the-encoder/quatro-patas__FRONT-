@@ -1,19 +1,11 @@
 <template>
     <div class="modal--adopt">
         <img class="img--adopt" src="../assets//scss/_imgs/girlWdog.png" alt="Girl Holding a Dog">
-        <div class="message">
-            <h1 class="title">Você ganhou um novo amiguinho!</h1>
-            <p class="text">Obrigado por sua adoção, ficamos felizes por você e por ele!</p>
+        <div class="message--adopt">
+            <h1 class="title--adopt">Você ganhou um novo amiguinho!</h1>
+            <p class="text--adopt">Obrigado por sua adoção, ficamos felizes por você e por ele!</p>
         </div>  
-        <svg class="close" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <rect width="32" height="32" fill="url(#pattern0)"/>
-            <defs>
-                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                    <use xlink:href="#image0_2_130" transform="scale(0.0111111)"/>
-                </pattern>
-                <image id="image0_2_130" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAABmJLR0QA/wD/AP+gvaeTAAAB9klEQVR4nO2cS24CMRBES1mEnDzMebJAuVBCbgGL0BIiw4SPu101rid5w+r5CQwDQwPGGGOMMcYYY4wxZo4NgAnA/rSm02MqSPi/AvgAcLhYnwDeOnrdioT/NUlK2Rkk/P+TpJKdQcL/VkkK2Rkk/O+VZIst4b8BsHtAMtYOfd/NZfynJyR7x342cqxthey+gWiPY+TR42Ju/VQItwpdGbtl5AOArwJnbBsKVxwjrY6L8/We6JsqnhVbyXWW1i/FjGNEwfEmmDfC7PYQjBtidGoC08aYXFJg2CCDQwk9NzpM5KDHhoeLHFRufNjIQUWA4SMHmSEc+YKsS2Dpy+osMp59fiZfgTX2qiIHbLFXGTlgib3qyEHv2ENEDnrFHipyUB17yMhBVeyhIwfZsR35jKzYNJFfeguYOnx0FOA3wwL88a4AX7AU4EvwAnpHHiI2S+RVx2aLvMrYrJFXFds/zhbg2w0K8A00BfiWsAJ8k2MBvm23AIaNMjikwrRBJpemMG6M0ekpmDfE7HYXChtRcFxE6W+/Sq5/aDGvo1I8I7bUvI7Kl2LrY0RqXofyYBSZeR3qo34k5nX0/u5Xyl9inNkCUv4SA/oWkPKXGDm5gJS/xBDVBaT8JcYCLyDlv8HvR7/v09pC65dldX9jjDHGGGOMMcaYMo5GWlFN6GAqrAAAAABJRU5ErkJggg=="/>
-            </defs>
-        </svg>
+        <img class="close" src="../assets/scss/_imgs/Close.svg" alt="Button Close">
     </div>
 </template>
 
@@ -38,24 +30,24 @@ export default {
         height: 308px;
     }
 
-    .message {
-        margin: 0;
-    }
+    .message--adopt {
 
-        .title {
+        .title--adopt {
             font-family: "Amatic SC", cursive;
             font-weight: bold;
             font-size: 40px;
             width: 150px;       
         }
         
-        .text {
+        .text--adopt {
             font-weight: 400;
             width: 290px;
         }
+    }
 
     .close {
         margin-bottom: 300px;
+        cursor: pointer;
     }
 }
 </style>
