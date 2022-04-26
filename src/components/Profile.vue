@@ -15,11 +15,12 @@
 </template>
 
 <script>
-import ButtonAdopt from './ButtonAdopt.vue'
-import Fav from './Fav.vue'
+import ButtonAdopt from './ButtonAdopt.vue';
+import Fav from './Fav.vue';
+
 export default {
     components: { Fav, ButtonAdopt },
-    name: 'Profile'
+    name: 'Profile',
 }
 </script>
 

@@ -15,7 +15,7 @@ import Search from './Search.vue';
 
 export default {
     components: { Search },
-    name: 'Header'
+    name: 'Header',
 }
 </script>
 
