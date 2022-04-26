@@ -25,6 +25,8 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 7px solid #FFF;
+    border-radius: 27px;
 
     .img--fav {
         height: 308px;
