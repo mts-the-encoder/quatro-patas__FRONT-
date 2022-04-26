@@ -5,7 +5,6 @@
         <router-link to="/">Home</router-link><br>
         <router-link :to="{ name: 'rules' }">Rules</router-link><br>
         <router-link :to="{ name: 'adopt' }">Adopt</router-link><br>
-        <router-link :to="{ name: 'favorites' }">Favorites</router-link>
       </li>
     </ul>
   </div>

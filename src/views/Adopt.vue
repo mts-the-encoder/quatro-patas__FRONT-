@@ -1,15 +1,19 @@
 <template>
-    <footer/>
-    <footer/>
-    <Footer/>
+    <title-4 v-text="title"/> /*Colocar aqui a minha variável*/
 </template>
 
 <script>
-import Footer from '../components/Footer.vue'
+import Title4 from '../components/Title4.vue'
+
 
 export default {
-    components: { Footer },
-    name: 'Adopt'
+    components: { Title4 },
+    name: 'Adopt',
+    data() {
+        return {
+            title: 'Olá' // Deixar aqui o retorno e oq quero que ela passe
+        }
+    }
 }
 </script>
 

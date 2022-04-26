@@ -20,11 +20,6 @@ const routes = [
         name: 'adopt',
         component: lazyLoad('Adopt')
     },
-    {
-        path: '/favorites',
-        name: 'favorites',
-        component: lazyLoad('Favorites')
-    }
 ];
 
 const router = createRouter({ history: createWebHistory(), routes: routes});
