@@ -14,8 +14,8 @@ export default {
 
 <style lang="scss" scoped>
 .heart--fav {
-    height: 80px;
-    width: 100px;
+    height: 70px;
+    width: 80px;
     background-color: $Bgcolor-heart--empty;
     box-shadow: 10px 10px 20px rgba(121, 24, 217, 0.5);
     border-radius: 10px;
